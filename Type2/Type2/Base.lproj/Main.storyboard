@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Type2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Girl" translatesAutoresizingMaskIntoConstraints="NO" id="rpG-1n-4qw">
+                                <rect key="frame" x="0.0" y="196" width="414" height="504"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joanna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOr-Ss-Kdd">
+                                <rect key="frame" x="20" y="77" width="142" height="56"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="42"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chat" translatesAutoresizingMaskIntoConstraints="NO" id="jcd-cX-tfo">
+                                <rect key="frame" x="275" y="591" width="119" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="gA2-xq-yWu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Hey Joseph, I'd love to meet you!&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tW5-Mb-KLR">
+                                <rect key="frame" x="49" y="741" width="316" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nw3-Fe-EEo">
+                                <rect key="frame" x="176" y="805" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Online" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23A-1E-gj6">
+                                <rect key="frame" x="176" y="841" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Close" translatesAutoresizingMaskIntoConstraints="NO" id="Wpz-gY-yMB">
+                                <rect key="frame" x="350" y="89" width="44" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="23A-1E-gj6" firstAttribute="top" secondItem="Nw3-Fe-EEo" secondAttribute="bottom" constant="5" id="9KF-i5-n6b"/>
+                            <constraint firstItem="23A-1E-gj6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="176" id="9jS-K6-qza"/>
+                            <constraint firstItem="tW5-Mb-KLR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="AqM-Al-mOZ"/>
+                            <constraint firstItem="HOr-Ss-Kdd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="GcG-10-xtE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="23A-1E-gj6" secondAttribute="trailing" symbolic="YES" id="HKL-2t-ZgA"/>
+                            <constraint firstItem="Nw3-Fe-EEo" firstAttribute="top" secondItem="tW5-Mb-KLR" secondAttribute="bottom" constant="40" id="JLe-gp-FNY"/>
+                            <constraint firstItem="jcd-cX-tfo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="275" id="OK1-MT-EId"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HOr-Ss-Kdd" secondAttribute="trailing" symbolic="YES" id="byR-V0-6QU"/>
+                            <constraint firstItem="rpG-1n-4qw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dNb-Me-XCA"/>
+                            <constraint firstItem="23A-1E-gj6" firstAttribute="leading" secondItem="Nw3-Fe-EEo" secondAttribute="leading" id="h8f-26-stZ"/>
+                            <constraint firstItem="tW5-Mb-KLR" firstAttribute="centerX" secondItem="rpG-1n-4qw" secondAttribute="centerX" id="jOb-Hy-Yz2"/>
+                            <constraint firstItem="23A-1E-gj6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kBy-GX-2AL"/>
+                            <constraint firstItem="jcd-cX-tfo" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="oVO-53-yVT"/>
+                            <constraint firstItem="HOr-Ss-Kdd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uWO-bA-xhD"/>
+                            <constraint firstItem="tW5-Mb-KLR" firstAttribute="top" secondItem="jcd-cX-tfo" secondAttribute="bottom" constant="22" id="yEQ-ga-0Tk"/>
+                            <constraint firstItem="rpG-1n-4qw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yLk-dD-zH7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chat" width="93" height="93"/>
+        <image name="Close" width="34" height="34"/>
+        <image name="Girl" width="414" height="504"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
